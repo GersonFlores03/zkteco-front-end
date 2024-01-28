@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='fatherRestore sm:flex justify-center items-center h-screen '>
      
       <HashRouter>
         <Routes>

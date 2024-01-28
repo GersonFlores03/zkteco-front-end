@@ -3,3 +3,39 @@
 @tailwind utilities;
 
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Job of Gerson Restore */
+
+.buttonRestore {
+    background-color: #9a4b90;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.linkSesion {
+    text-decoration: underline;
+    color: blue;
+}
+
+.restoreInput {
+    border: solid black 1px;
+    border-radius: 4px;
+    font-size: 10px;
+
+}
+
+.restoreInput::placeholder {
+    position: relative;
+    left: 8px;
+    bottom: 8px;
+}
+
+
+/* ----- Ready coding Good day------  */

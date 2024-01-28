@@ -6,7 +6,7 @@ const Sesion = () => {
     return (
         <div>
             <Header/>
-            <h1>Hello of Sesion</h1>
+            <h1>Hello brother ready for sesion</h1>
             <Footer/>
         </div>
     );
