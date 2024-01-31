@@ -1,0 +1,141 @@
+:rootX {
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+   line-height: 1.5;
+   font-weight: 400;
+
+   color-scheme: light dark;
+   color: black;
+   background-color: whitesmoke;
+
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+label {
+   font-weight: 500;
+   color: rgb(48, 46, 46);
+   text-decoration: inherit;
+   margin: 0px 10px;
+}
+
+.loginTitleh2 {
+   font-size: 2em;
+   line-height: 1.1;
+}
+
+.topMainLayout {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 3rem;
+   padding: 10px;
+}
+.searchMainLayout {
+   width: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-items: left;
+   align-items: center;
+   gap: 1rem;
+   border: 1px solid;
+   border-radius: 20px;
+   padding: 10px;
+}
+.inputSearchLayout {
+   background: #f9f9f9;
+   color: grey;
+   border-color: white;
+}
+.navMainLayout {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-items: right;
+   align-items: center;
+   gap: 2rem;
+   margin-right: 20px;
+}
+
+.buttonMainLayout {
+   border-radius: 8px;
+   border: 1px solid transparent;
+   padding: 0.6em 1.2em;
+   font-size: 1em;
+   font-weight: 500;
+   font-family: inherit;
+   background-color: #1a1a1a;
+   cursor: pointer;
+   transition: border-color 0.25s;
+}
+
+.mainLayoutNav {
+   background: whitesmoke;
+   font-weight: 500;
+   color:gray;
+   list-style: none;
+   display: inline-block;
+   text-decoration: none;
+   margin-right: 10px;
+   padding: 5px 10px;
+}
+.mainLayoutNav:hover {
+   color: white;
+   background: rgb(172, 29, 172);
+   border-radius: 8px;
+}
+.LinkUnderline {
+   text-decoration: none;
+}
+
+.displayMainFlex {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 3rem;
+   padding: 10px;
+}
+
+.inputLoginLayout {
+   width: 40%;
+   align-items: center;
+   border: 2px solid;
+   border-color: grey;
+   border-radius: 20px;
+   padding: 10px;
+   background: #f9f9f9;
+   margin: 1rem 0px;
+   color: grey;
+}
+
+.buttonLoginLayout {
+   width: 40%;
+   align-items: center;
+   border: 2px solid;
+   border-color: grey;
+   border-radius: 5px;
+   padding: 10px;
+   background: rgb(172, 29, 172);
+   margin: 1rem 0px;
+   color: rgb(255, 255, 255);
+   font-size: large;
+}
+.buttonLoginLayout:hover {
+   border-color: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+   :root {
+      color: #213547;
+      background-color: #ffffff;
+   }
+   a:hover {
+      color: #747bff;
+   }
+   button {
+      background-color: #f9f9f9;
+   }
+}
